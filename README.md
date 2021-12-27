@@ -8,8 +8,8 @@ Hi All!
 Here is the example focused on laravel generate pdf using input data using dom-pdf.
 
 ### Preview
-![input](https://github.com/kcsrinivasa/laravel-generatepdf/blob/main/output/qrgenerate.jpg?raw=true)
-![result](https://github.com/kcsrinivasa/laravel-generatepdf/blob/main/output/scan.jpg?raw=true)
+![input](https://github.com/kcsrinivasa/laravel-generatepdf/blob/main/output/input.jpg?raw=true)
+![result](https://github.com/kcsrinivasa/laravel-generatepdf/blob/main/output/result.jpg?raw=true)
 
 PDF is a portable document format and helps us providing the invoices, user manuals, eBooks, application forms, etc. We will understand from starting to finish about how to create a PDF file in Laravel.
 
