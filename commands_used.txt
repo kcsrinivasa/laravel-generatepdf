@@ -1,0 +1,25 @@
+--This project is focused on laravel generate pdf--
+
+
+---To create a project---
+composer create-project --prefer-dist laravel/laravel generatepdf
+
+---To open project in browser---
+mv server.php index.php
+cp public/.htaccess .
+---open in browser---
+http://localhost/laravel/generatepdf
+
+--install generate pdf package--
+composer require barryvdh/laravel-dompdf
+--update in config/app.php ---
+'providers' => [
+  Barryvdh\DomPDF\ServiceProvider::class,
+],
+
+'aliases' => [
+  'PDF' => Barryvdh\DomPDF\Facade::class,
+]
+----create controller----
+php artisan make:controller CustomerController -r
+
